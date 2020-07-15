@@ -54,6 +54,7 @@ const addTask = (e) => {
     taskNumber.textContent = listItems.length;
 
     task.querySelector("button").addEventListener("click", removeTask);
+
 }
 
 form.addEventListener("submit", addTask);
