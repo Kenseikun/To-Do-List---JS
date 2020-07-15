@@ -1,0 +1,136 @@
+.container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    color: white;
+    background-color: #46529D;
+    box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.5);
+    margin: 0px auto;
+    width: 90%;
+    max-height: 80vh;
+
+    .top__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   
+        width: 100%;
+        background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) ), url('../images/mountains.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-blend-mode: overlay;
+    input{
+        margin: 15px;
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: #e8f5ff;
+        padding: 5px 10px;
+        opacity: 0.7;
+    
+        &:focus{
+            border-bottom: 1px solid black;
+            outline: none;
+            box-shadow: inset 0px 0px 10px -2px rgba(92,168,224,1);
+            opacity: 1;
+        }
+    }
+    
+    h1.title{
+        margin: 10px 0 20px 0;
+        font-family: $fontSec;
+        font-weight: 100;
+        font-size: 2.8em;
+        text-transform: uppercase;
+        text-shadow: 0px 3px 2px rgba(150, 150, 150, 0.8);
+       
+    }
+    
+    .submit__btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+        cursor: pointer;
+        border-radius: 50%;
+        border: none;
+        color: white;
+        font-weight: 100;
+        font-size: 2em;
+        width: 20px;
+        height: 20px;
+        padding: 30px;
+        background-color:#5CA8E0;
+        box-shadow: 0px 6px 33px -11px rgba(0,0,0,0.75);
+        outline: none;
+        opacity: 0.8;
+        text-align: center;
+    
+        &:hover{
+            background-color:#48a3e4;
+            opacity: 1;
+        }
+    }
+    
+    .h1__tasks{
+        font-size: 1em;
+        margin: 0px 0px 10px 0;
+        padding: 5px;
+        box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.8);
+    }
+    
+}
+    
+    ul{
+        width: 100%;
+        height: 50vh;
+        padding-bottom: 80px;
+        overflow: auto;
+    
+        li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 10px auto;
+        border-radius: 10px;
+        padding: 5px 15px;
+        width: 95%;  
+        box-shadow: 0px 6px 33px -11px rgba(0,0,0,0.75);
+
+        font-weight: 300;
+    
+        
+            button{
+            font-size: 0.5em;
+            
+            margin: 10px;
+            width: 20px;
+            height: 20px;
+           
+            border: none;
+            outline: none;
+            border-radius: 50%;
+            background-color:tomato;
+            cursor: pointer;
+            color: white;
+    
+            &:hover {
+                background-color: red;
+            }
+        }
+      }
+    }
+    
+}
+
+
+
+
+

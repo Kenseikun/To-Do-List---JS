@@ -1,0 +1,20 @@
+$font:'Montserrat', sans-serif;
+$fontSec:'Inconsolata', monospace;
+
+:root{
+    --app-height: 100%;
+}
+
+body{
+    font-family: $font;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(180deg, #fdd1d1 0%, #a17dca 100%);
+
+   
+}
+
