@@ -1,8 +1,10 @@
 # To-Do-List---JS-training
 
-I am making this app to learn all vanilla JS tools which I have already learned. 
+This app was created to improve my JavaScript skills. 
+
+## Link Example
+[Click to check this project...](https://kenseikun.github.io/To-Do-List---JS/)
 
 ## Technology
 <img src="images/jsTech.png" height="100"> <img src="images/sassLogo.png" height="100">
-## Link Example
-[Check...](https://kenseikun.github.io/To-Do-List---JS/)
+
