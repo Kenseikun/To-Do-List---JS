@@ -31,8 +31,10 @@ const input = document.querySelector("input");
 const h1 = document.querySelector(".h1__tasks");
 
 
-const removeTask = (e) => {
-    e.target.parentNode.remove();
+const removeTask = function (e) {
+    console.log(e);
+    console.log(this);
+    e.target.parentElement.remove();
     taskNumber.textContent = listItems.length;
 }
 
